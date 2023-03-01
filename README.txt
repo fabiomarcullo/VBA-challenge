@@ -1,16 +1,7 @@
-Multiple_Year_Stock_data - VBA challenge
+The VBA challenge involved the creation of four distinct scripts, each with its specific purpose. The Ticker Script is designed to extract and collate all available tickers, eliminate any duplicates and assemble a table to facilitate data analysis and consolidation on the Dashboard for the end user. 
 
-For the VBA challenge, 4 different Scripts were created with the following purpose:
+The Yearly Change Script is intended to compute the variations for each ticker based on the year filter entered in cell "H3" of the "Dashboard Stock" Tab. Similarly, the Sum Stock Script is designed to determine the total volume of each ticker based on the year filter applied in cell "H3" of the "Dashboard Stock" Tab. Lastly, the Greatest Script computes the statistics for each ticker based on the year filter entered in cell "H3" of the "Dashboard Stock" Tab.
 
-- Ticker_Script: Its purpose is to query all available Tickers, remove duplicates and assemble a table to create a Dashboard to consolidate analyzes for the end user.
+The scripts were meticulously developed, taking into consideration the optimization of results, and an intuitive design for the end user. The benefit of this approach is that the end user does not have to navigate through multiple tabs to view results for a given year. Furthermore, future updates require only the addition of a new tab for the subsequent year.
 
-- Yearly_Change Script: Its purpose is to calculate the variations of each Ticker based on the year filter applied in cell "H3" of the "Daskboard Stock" Tab.
-
-- Sum_Stock Script: Its purpose is to calculate the total volume of each Ticker based on the year filter applied in cell "H3" of the "Daskboard Stock" Tab.
-
-- Greatest Script: Its purpose is to calculate the statistics of each Ticker based on the year filter applied in cell "H3" of the "Daskboard Stock" Tab.
-
-The Scripts were prepared based on the challenge request, aiming at optimizing the result and a more intuitive design for the end user. That way, he doesn't have the need to consult each tab to see the year's result, in addition to optimizing for future years where it will only be necessary to add the following year in a new tab.
-
-Script created by Fabio Lima.
-Version 1.0
+These scripts were developed by Fabio Lima, and their current version is 1.0.
